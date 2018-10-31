@@ -1,0 +1,14 @@
+pkgbase = fluxctl-bin
+	pkgdesc = Weave Flux client binary
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://github.com/weaveworks/flux
+	arch = x86_64
+	license = apache
+	provides = fluxctl=$pkgver
+	conflicts = fluxctl
+	source_x86_64 = fluxctl-1.8.0::https://github.com/weaveworks/flux/releases/download/1.8.0/fluxctl_linux_amd64
+	sha256sums_x86_64 = 8e1b766d1dab42527893c4529b93f7a00ee83b5fe50beff736b1bf19158db201
+
+pkgname = fluxctl-bin
+
